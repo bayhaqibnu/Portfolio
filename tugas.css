@@ -66,8 +66,25 @@
     margin-left: 10%;
     width: 90%;
     font-family: var(--poppins);
+    background: url("img/memphis-mini.webp");
+    display: flex;
+    justify-content: center;
 }
 
 #content ul {
     margin: 20px 50px;
+}
+
+#content ul li {
+    font-weight: 200;
+    margin: 15px 0;
+}
+
+#content ul li span {
+    font-weight: bold;
+}
+
+#wrap-content {
+    width: 80%;
+    padding: 40px;
 }
