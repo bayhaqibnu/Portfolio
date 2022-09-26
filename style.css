@@ -157,11 +157,14 @@
     margin-top: -100px;
 }
 
-table,th,td {
+table,
+th,
+td {
     border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
     background: rgba(255, 255, 255, 0.5);
     border-style: ridge;
     width: 350px;
@@ -169,6 +172,7 @@ th, td {
     text-align: center;
     font-size: 1.5em;
 }
+
 td {
     height: 100px;
 }
@@ -198,10 +202,102 @@ td {
 }
 
 .contact .content-box2 {
+    position: relative;
     background: rgba(0, 0, 0, 0.7);
     color: var(--yellow);
     font-size: 2em;
     text-align: center;
+}
+
+.main-container {
+    display: flex;
+    margin: 8% 8%;
+}
+
+.container1 input {
+    width: 370px;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #4D4D4D;
+    border: none;
+    color: #FFFFFF;
+    font-family: var(--poppins);
+    font-size: 20px;
+}
+
+.container1 input:last-child {
+    height: 117px;
+}
+
+.container1 input:focus {
+    border: 2px solid var(--yellow);
+}
+
+.container1 input[type="button"] {
+    position: absolute;
+    width: 75px;
+    height: 50px;
+    background-color: var(--yellow);
+    color: var(--black);
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: 600ms ease-out;
+}
+
+.container1 input[type="button"]:hover {
+    background-color: var(--black);
+    color: var(--yellow);
+}
+
+.container2 .box {
+    position: relative;
+    width: 440px;
+    height: 260px;
+    background-color: #4D4D4D;
+    border-radius: 10px;
+    margin-left: 14%;
+}
+
+.container2 .icon {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-content: center;
+    top: 28px;
+    left: 30px;
+}
+
+.container2 .icon img {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.container2 .line {
+    position: absolute;
+    width: 100px;
+    height: 180px;
+    border-left: 2px solid #AEAEAE;
+    left: 120px;
+    top: 40px;
+}
+
+.container2 .identitas {
+    text-align: start;
+    position: absolute;
+    display: inline-block;
+    left: 150px;
+    margin-top: 38px;
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.container2 .identitas p {
+    line-height: 35px;
 }
 
 /* contact end */
