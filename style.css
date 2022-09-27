@@ -269,9 +269,9 @@ td {
     left: 30px;
 }
 
-.container2 .icon img {
+.container2 .icon a {
     display: inline-block;
-    margin: 5px 0;
+    margin: 1px 0;
 }
 
 .container2 .line {
